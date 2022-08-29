@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+
+body {
+  background-color: rgb(159, 123, 123);
+  font-family: "Playball", cursive;
+  color: rgb(120, 238, 238);
+}
+h1 {
+  margin: 50px auto;
+  width: 400px;
+  font-size: 60px;
+  margin-bottom: 80px;
+  padding-top: 100px;
+  letter-spacing: 5px;
+  text-align: center;
+}
+.container {
+  background-color: rgb(102, 82, 82);
+  border-radius: 25px 50px;
+  width: 1000px;
+  margin: 0 auto;
+  box-shadow: rgb(62 62 62 / 56%) 20px 13px 18px 3px;
+}
+img {
+  width: 300px;
+  height: 300px;
+}
+.players {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  font-size: 28px;
+  letter-spacing: 3px;
+}
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding: 35px 95px;
+  font-size: 50px;
+  color: #fff;
+  background-color: red;
+  font-family: "Playball", cursive;
+  letter-spacing: 4px;
+  border-radius: 25% 10%;
+  border: none;
+  box-shadow: 20px black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(112, 144, 37, 0.09) 0px -3px 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.player-text {
+  cursor: pointer;
+}

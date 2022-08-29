@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: rgb(98, 98, 215);
+  position: relative;
+}
+.container {
+  margin: 0 auto;
+  width: 400px;
+}
+h1 {
+  color: aqua;
+  font-size: 40px;
+}
+.guess {
+  position: absolute;
+  top: 400px;
+  left: 250px;
+  padding: 24px 5px;
+  font-size: 30px;
+  color: red;
+}
+.guessing-number {
+  color: antiquewhite;
+  font-size: 30px;
+  position: absolute;
+  top: 300px;
+  right: 800px;
+  padding: 15px 30px;
+  background-color: rgb(121, 205, 122);
+  cursor: pointer;
+}
+
+.message {
+  position: absolute;
+  top: 140px;
+  right: 300px;
+  color: rgb(241, 226, 6);
+  font-size: 30px;
+}
+section {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+}
+.btn {
+  color: red;
+  padding: 15px 20px;
+  font-size: 15px;
+}

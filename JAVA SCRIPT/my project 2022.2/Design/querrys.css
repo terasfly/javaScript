@@ -1,0 +1,12 @@
+@media(max-width:84em){
+    
+header{
+    max-width: 120rem;
+    background-color: red;
+}
+}
+@media(max-width:64em){
+    main{
+        grid-template-columns: 1fr;}
+      
+}
